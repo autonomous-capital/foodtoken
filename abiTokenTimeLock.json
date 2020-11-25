@@ -1,0 +1,92 @@
+[
+    {
+        'constant': True,
+        'inputs': [],
+        'name': "beneficiary",
+        'outputs': [
+            {
+                'name': "",
+                'type': "address"
+            }
+        ],
+        'payable': False,
+        'stateMutability': "view",
+        'type': "function"
+    },
+    {
+        'constant': False,
+        'inputs': [
+            {
+                'name': "otherToken",
+                'type': "address"
+            }
+        ],
+        'name': "withdraw",
+        'outputs': [],
+        'payable': False,
+        'stateMutability': "nonpayable",
+        'type': "function"
+    },
+    {
+        'constant': False,
+        'inputs': [],
+        'name': "release",
+        'outputs': [],
+        'payable': False,
+        'stateMutability': "nonpayable",
+        'type': "function"
+    },
+    {
+        'constant': True,
+        'inputs': [],
+        'name': "releaseTime",
+        'outputs': [
+            {
+                'name': "",
+                'type': "uint256"
+            }
+        ],
+        'payable': False,
+        'stateMutability': "view",
+        'type': "function"
+    },
+    {
+        'constant': True,
+        'inputs': [],
+        'name': "token",
+        'outputs': [
+            {
+                'name': "",
+                'type': "address"
+            }
+        ],
+        'payable': False,
+        'stateMutability': "view",
+        'type': "function"
+    },
+    {
+        'inputs': [
+            {
+                'name': "token",
+                'type': "address"
+            },
+            {
+                'name': "beneficiary",
+                'type': "address"
+            },
+            {
+                'name': "releaseTime",
+                'type': "uint256"
+            }
+        ],
+        'name': "constructor",
+        'payable': False,
+        'stateMutability': "nonpayable",
+        'type': "constructor"
+    },
+    {
+        'payable': True,
+        'stateMutability': "payable",
+        'type': "fallback"
+    }
+]
